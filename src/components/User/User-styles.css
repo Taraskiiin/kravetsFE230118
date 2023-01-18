@@ -43,11 +43,16 @@
     border-radius: 5px;
     background-color: rgb(75, 92, 187);
     color: white;
-    border: 2px solid rgb(31, 43, 109);
+    border: none;
     cursor: pointer;
     font-weight: bold;
     width: 100%;
     margin: 20px auto;
+    transition: 0.3s ease all;
+}
+
+.button__send-message:hover{
+    background-color: rgb(104, 122, 220);
 }
 
 .bottom-content a {

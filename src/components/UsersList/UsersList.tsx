@@ -6,6 +6,7 @@ import { IUser } from "../../interfaces";
 
 import ListItem from "../ListItem/ListItem";
 import User from "../User/User";
+import "./UserList-styles.css";
 
 const UsersList = () => {
   const dispatch = useAppDispatch();
@@ -21,7 +22,7 @@ const UsersList = () => {
   const isFullList = userList.length > 3;
 
   return (
-    <div>
+    <div className="users-list">
       {userList.map((user: IUser) => (
         <ListItem user={user} key={user.nickname} />
       ))}

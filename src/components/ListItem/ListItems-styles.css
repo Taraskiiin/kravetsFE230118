@@ -3,7 +3,9 @@
     width: 100%;
     align-items: center;
     max-width: 500px;
-    margin: 20px auto;
+    margin: 15px auto;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.232);
+    padding-bottom: 20px
 }
 
 .button__view{
